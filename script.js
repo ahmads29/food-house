@@ -47,3 +47,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get all info icons
+    var infoIcons = document.querySelectorAll(".devzur_menu-item-info");
+  
+    // Add click event listener to each info icon
+    infoIcons.forEach(function(icon) {
+      icon.addEventListener("click", function() {
+        // Toggle active class to show/hide tooltip
+        this.classList.toggle("active");
+      });
+    });
+  });
+  
