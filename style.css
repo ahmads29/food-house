@@ -188,7 +188,7 @@ body{
 /* Arrow styles */
 .arrow {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
@@ -213,8 +213,18 @@ body{
 .arrow:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
+.devzur_arrow-left svg{
+  margin-top: 10px;
+}
+.devzur_arrow-right svg{
+  margin-top: 10px;
+}
 
 /* Categories container styles */
+.devzur_category-container-main{
+  display: flex;
+  justify-content: center;  
+}
 .devzur_categories-container {
   display: flex;
   justify-content: flex-start;
@@ -427,6 +437,10 @@ body{
   color: #15be3a;
 }
 
+
+.devzur_menu-item-info.active .tooltip {
+  display: block;
+}
 /* menu item container CSS end */
 
 
